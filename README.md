@@ -5,12 +5,12 @@ MagTool is software for magnetic stripe readers & writers. The tools that ship w
 
 System Requirements
 -------------------
-Mac OS X 10.5 (Leopard) or higher
-Serial or USB interface on the device
+* Mac OS X 10.5 (Leopard) or higher
+* Serial or USB interface on the device
 
 Known issues
 ------------
-Erase operation locks up GUI until operation is complete
-Read operation does yet recognize non-ISO formats, despite what the UI says
-Raw formats are not working yet
-No documentation
+* Erase operation locks up GUI until operation is complete
+* Read operation does yet recognize non-ISO formats, despite what the UI says
+* Raw formats are not working yet
+* No documentation
