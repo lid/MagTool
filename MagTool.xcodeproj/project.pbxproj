@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0664B83A114AFA7C0068D391 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0664B839114AFA7C0068D391 /* BWToolkitFramework.framework */; };
+		0664B86B114AFA860068D391 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0664B839114AFA7C0068D391 /* BWToolkitFramework.framework */; };
+		06924FF7102E6FEA00000D81 /* Card-Tool-Icon.png.icns in Resources */ = {isa = PBXBuildFile; fileRef = 06924FF6102E6FEA00000D81 /* Card-Tool-Icon.png.icns */; };
+		06925028102E729B00000D81 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06925027102E729B00000D81 /* Sparkle.framework */; };
+		06925033102E72A300000D81 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 06925027102E729B00000D81 /* Sparkle.framework */; };
+		06EEE1D2100A76EF007AE1F4 /* AMSerialPort_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1C4100A76EF007AE1F4 /* AMSerialPort_Deprecated.m */; };
+		06EEE1D3100A76EF007AE1F4 /* AMSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1C6100A76EF007AE1F4 /* AMSerialPort.m */; };
+		06EEE1D4100A76EF007AE1F4 /* AMSerialPortAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1C8100A76EF007AE1F4 /* AMSerialPortAdditions.m */; };
+		06EEE1D5100A76EF007AE1F4 /* AMSerialPortList_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1CA100A76EF007AE1F4 /* AMSerialPortList_Deprecated.m */; };
+		06EEE1D6100A76EF007AE1F4 /* AMSerialPortList.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1CC100A76EF007AE1F4 /* AMSerialPortList.m */; };
+		06EEE1D7100A76EF007AE1F4 /* AMStandardEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1CF100A76EF007AE1F4 /* AMStandardEnumerator.m */; };
+		06EEE1E0100A7792007AE1F4 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE1DF100A7792007AE1F4 /* AppController.m */; };
+		06EEE1EC100A781E007AE1F4 /* AMSerialErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1C2100A76EF007AE1F4 /* AMSerialErrors.h */; };
+		06EEE1ED100A781E007AE1F4 /* AMSerialPort_Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1C3100A76EF007AE1F4 /* AMSerialPort_Deprecated.h */; };
+		06EEE1EE100A781E007AE1F4 /* AMSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1C5100A76EF007AE1F4 /* AMSerialPort.h */; };
+		06EEE1EF100A781E007AE1F4 /* AMSerialPortAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1C7100A76EF007AE1F4 /* AMSerialPortAdditions.h */; };
+		06EEE1F0100A781E007AE1F4 /* AMSerialPortList_Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1C9100A76EF007AE1F4 /* AMSerialPortList_Deprecated.h */; };
+		06EEE1F1100A781E007AE1F4 /* AMSerialPortList.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1CB100A76EF007AE1F4 /* AMSerialPortList.h */; };
+		06EEE1F2100A781E007AE1F4 /* AMSDKCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1CD100A76EF007AE1F4 /* AMSDKCompatibility.h */; };
+		06EEE1F3100A781E007AE1F4 /* AMStandardEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1CE100A76EF007AE1F4 /* AMStandardEnumerator.h */; };
+		06EEE1F4100A781E007AE1F4 /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE1DE100A7792007AE1F4 /* AppController.h */; };
+		06EEE1F6100A7836007AE1F4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEE1F5100A7836007AE1F4 /* IOKit.framework */; };
+		06EEE4E9100AE1D4007AE1F4 /* SelectableToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEE4E7100AE1D4007AE1F4 /* SelectableToolbar.h */; };
+		06EEE4EA100AE1D4007AE1F4 /* SelectableToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE4E8100AE1D4007AE1F4 /* SelectableToolbar.m */; };
+		1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainWindow.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06EEE62E100AF6A3007AE1F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0664B86B114AFA860068D391 /* BWToolkitFramework.framework in CopyFiles */,
+				06925033102E72A300000D81 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0664B839114AFA7C0068D391 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BWToolkitFramework.framework; sourceTree = "<group>"; };
+		06924FF6102E6FEA00000D81 /* Card-Tool-Icon.png.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Card-Tool-Icon.png.icns"; path = "Icon/Card-Tool-Icon.png.icns"; sourceTree = "<group>"; };
+		06925027102E729B00000D81 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		06925057102E79C500000D81 /* build_phase_script.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = build_phase_script.bash; path = publish/build_phase_script.bash; sourceTree = "<group>"; };
+		0692509F102E83E200000D81 /* magtool_updates.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = magtool_updates.xml; path = publish/magtool_updates.xml; sourceTree = "<group>"; };
+		069250D0102FDDA300000D81 /* release_notes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = release_notes.html; path = publish/release_notes.html; sourceTree = "<group>"; };
+		069250D1102FDDA300000D81 /* release_notes.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = release_notes.css; path = publish/release_notes.css; sourceTree = "<group>"; };
+		06EEE1C2100A76EF007AE1F4 /* AMSerialErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialErrors.h; sourceTree = "<group>"; };
+		06EEE1C3100A76EF007AE1F4 /* AMSerialPort_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPort_Deprecated.h; sourceTree = "<group>"; };
+		06EEE1C4100A76EF007AE1F4 /* AMSerialPort_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPort_Deprecated.m; sourceTree = "<group>"; };
+		06EEE1C5100A76EF007AE1F4 /* AMSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPort.h; sourceTree = "<group>"; };
+		06EEE1C6100A76EF007AE1F4 /* AMSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPort.m; sourceTree = "<group>"; };
+		06EEE1C7100A76EF007AE1F4 /* AMSerialPortAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortAdditions.h; sourceTree = "<group>"; };
+		06EEE1C8100A76EF007AE1F4 /* AMSerialPortAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortAdditions.m; sourceTree = "<group>"; };
+		06EEE1C9100A76EF007AE1F4 /* AMSerialPortList_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList_Deprecated.h; sourceTree = "<group>"; };
+		06EEE1CA100A76EF007AE1F4 /* AMSerialPortList_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList_Deprecated.m; sourceTree = "<group>"; };
+		06EEE1CB100A76EF007AE1F4 /* AMSerialPortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList.h; sourceTree = "<group>"; };
+		06EEE1CC100A76EF007AE1F4 /* AMSerialPortList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList.m; sourceTree = "<group>"; };
+		06EEE1CD100A76EF007AE1F4 /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSDKCompatibility.h; sourceTree = "<group>"; };
+		06EEE1CE100A76EF007AE1F4 /* AMStandardEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStandardEnumerator.h; sourceTree = "<group>"; };
+		06EEE1CF100A76EF007AE1F4 /* AMStandardEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStandardEnumerator.m; sourceTree = "<group>"; };
+		06EEE1DE100A7792007AE1F4 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		06EEE1DF100A7792007AE1F4 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		06EEE1F5100A7836007AE1F4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		06EEE4E7100AE1D4007AE1F4 /* SelectableToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableToolbar.h; sourceTree = "<group>"; };
+		06EEE4E8100AE1D4007AE1F4 /* SelectableToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableToolbar.m; sourceTree = "<group>"; };
+		06EEE575100AEACA007AE1F4 /* DeveloperNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeveloperNotes.txt; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* MagTool_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagTool_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MagTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				06EEE1F6100A7836007AE1F4 /* IOKit.framework in Frameworks */,
+				06925028102E729B00000D81 /* Sparkle.framework in Frameworks */,
+				0664B83A114AFA7C0068D391 /* BWToolkitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0692503E102E755300000D81 /* Publishing */ = {
+			isa = PBXGroup;
+			children = (
+				069250D0102FDDA300000D81 /* release_notes.html */,
+				069250D1102FDDA300000D81 /* release_notes.css */,
+				0692509F102E83E200000D81 /* magtool_updates.xml */,
+				06925057102E79C500000D81 /* build_phase_script.bash */,
+			);
+			name = Publishing;
+			sourceTree = "<group>";
+		};
+		06EEE1DA100A76FB007AE1F4 /* AMSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE1C2100A76EF007AE1F4 /* AMSerialErrors.h */,
+				06EEE1C3100A76EF007AE1F4 /* AMSerialPort_Deprecated.h */,
+				06EEE1C4100A76EF007AE1F4 /* AMSerialPort_Deprecated.m */,
+				06EEE1C5100A76EF007AE1F4 /* AMSerialPort.h */,
+				06EEE1C6100A76EF007AE1F4 /* AMSerialPort.m */,
+				06EEE1C7100A76EF007AE1F4 /* AMSerialPortAdditions.h */,
+				06EEE1C8100A76EF007AE1F4 /* AMSerialPortAdditions.m */,
+				06EEE1C9100A76EF007AE1F4 /* AMSerialPortList_Deprecated.h */,
+				06EEE1CA100A76EF007AE1F4 /* AMSerialPortList_Deprecated.m */,
+				06EEE1CB100A76EF007AE1F4 /* AMSerialPortList.h */,
+				06EEE1CC100A76EF007AE1F4 /* AMSerialPortList.m */,
+				06EEE1CD100A76EF007AE1F4 /* AMSDKCompatibility.h */,
+				06EEE1CE100A76EF007AE1F4 /* AMStandardEnumerator.h */,
+				06EEE1CF100A76EF007AE1F4 /* AMStandardEnumerator.m */,
+			);
+			name = AMSerialPort;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE1DA100A76FB007AE1F4 /* AMSerialPort */,
+				06EEE1DE100A7792007AE1F4 /* AppController.h */,
+				06EEE1DF100A7792007AE1F4 /* AppController.m */,
+				06EEE4E7100AE1D4007AE1F4 /* SelectableToolbar.h */,
+				06EEE4E8100AE1D4007AE1F4 /* SelectableToolbar.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0664B839114AFA7C0068D391 /* BWToolkitFramework.framework */,
+				06925027102E729B00000D81 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				06EEE1F5100A7836007AE1F4 /* IOKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MagTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MagTool */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				0692503E102E755300000D81 /* Publishing */,
+			);
+			name = MagTool;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MagTool_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06924FF6102E6FEA00000D81 /* Card-Tool-Icon.png.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainWindow.xib */,
+				06EEE575100AEACA007AE1F4 /* DeveloperNotes.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06EEE1F9100A7837007AE1F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEE1EC100A781E007AE1F4 /* AMSerialErrors.h in Headers */,
+				06EEE1ED100A781E007AE1F4 /* AMSerialPort_Deprecated.h in Headers */,
+				06EEE1EE100A781E007AE1F4 /* AMSerialPort.h in Headers */,
+				06EEE1EF100A781E007AE1F4 /* AMSerialPortAdditions.h in Headers */,
+				06EEE1F0100A781E007AE1F4 /* AMSerialPortList_Deprecated.h in Headers */,
+				06EEE1F1100A781E007AE1F4 /* AMSerialPortList.h in Headers */,
+				06EEE1F2100A781E007AE1F4 /* AMSDKCompatibility.h in Headers */,
+				06EEE1F3100A781E007AE1F4 /* AMStandardEnumerator.h in Headers */,
+				06EEE1F4100A781E007AE1F4 /* AppController.h in Headers */,
+				06EEE4E9100AE1D4007AE1F4 /* SelectableToolbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MagTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MagTool" */;
+			buildPhases = (
+				06EEE1F9100A7837007AE1F4 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				06EEE62E100AF6A3007AE1F4 /* CopyFiles */,
+				06925044102E77E000000D81 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagTool;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MagTool;
+			productReference = 8D1107320486CEB800E47090 /* MagTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MagTool" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MagTool */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MagTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */,
+				06924FF7102E6FEA00000D81 /* Card-Tool-Icon.png.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06925044102E77E000000D81 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "script_file=\"build_phase_script.bash\"\n\necho \"Running a custom build phase script: $script_file\"\n${PROJECT_DIR}/publish/${script_file}\nscriptExitStatus=$?\necho \"DONE with script: ${script_file} (exitStatus=${scriptExitStatus})\"\nexit \"${scriptExitStatus}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				06EEE1D2100A76EF007AE1F4 /* AMSerialPort_Deprecated.m in Sources */,
+				06EEE1D3100A76EF007AE1F4 /* AMSerialPort.m in Sources */,
+				06EEE1D4100A76EF007AE1F4 /* AMSerialPortAdditions.m in Sources */,
+				06EEE1D5100A76EF007AE1F4 /* AMSerialPortList_Deprecated.m in Sources */,
+				06EEE1D6100A76EF007AE1F4 /* AMSerialPortList.m in Sources */,
+				06EEE1D7100A76EF007AE1F4 /* AMStandardEnumerator.m in Sources */,
+				06EEE1E0100A7792007AE1F4 /* AppController.m in Sources */,
+				06EEE4EA100AE1D4007AE1F4 /* SelectableToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/BWToolkit\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagTool_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MagTool;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/BWToolkit\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagTool_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MagTool;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MagTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MagTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
