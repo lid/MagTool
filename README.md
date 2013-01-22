@@ -1,6 +1,8 @@
 MagTool
 =======
 
+MagTool lives on as [MagStriper](http://kevinbrewster.github.com/MagStriper/)!
+
 Visit http://dustin.li/code/magtool/ for more information.
 
 MagTool is software for magnetic stripe readers & writers. The tools that ship with most magnetic stripe readers, writers, and encoders are generally Windows-only and pretty crufty. MagTool provides a simple, intuitive interface to MSR206-compatible devices. The software features read, write, duplicate, and erase support for MSR206-compatible readers and writers (including MSRW MSR606, MSR505C, MSR106, MSR406, MSR210, MSR210U, and others).
